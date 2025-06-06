@@ -1,0 +1,31 @@
+---
+import Fecha from "../components/Fecha.astro";
+---
+
+<section id="5K" class="h-screen">
+    <div class="flex items-center mx-auto justify-center max-w-7xl h-auto">
+        <article class="grid h-full w-full gap-4 bg-gray-200 p-2 grid-cols-4 grid-rows-4 rounded-lg shadow-md">
+        <article class="col-span-2 row-span-3 bg-pink-200 rounded-lg shadow-md flex items-center justify-center">
+            <img class="rounded-lg blur-md" src="/img/foto_bosque_fran.jpg" alt="Foto de corredor durante el tramo de trail">
+        </article>
+        <article class="col-span-2 row-span-1 bg-lime-200 rounded-lg shadow-md flex items-center justify-center">
+            <Fecha />
+        </article>
+        <article class="col-span-1 row-span-2 bg-yellow-200 rounded-lg shadow-md flex flex-col items-center justify-center">
+            <p class="text-5xl my-3 font-bold">30</p>
+            <p class="text-3xl my-3">Agosto de 2025</p>
+            <button
+                onclick="console.log('Agregar al calendario')"
+                class="mt-6 bg-white/50 py-4 px-8 font-medium rounded-2xl cursor-pointer hover:scale-105 hover:font-bold hover:bg-white/70 transition-all"
+            >Agregar al Calendario</button>
+        </article>
+        <article class="col-span-1 row-span-2 bg-emerald-200 rounded-lg shadow-md flex flex-col text-center items-center justify-center">
+            <p class="text-xl">Apuntat a partir del</p>
+            <p class="font-bold text-4xl my-8 bg-amber-300/80 rounded-2xl px-4 py-2">1 de Julio</p>
+            <a class="bg-white/50 py-4 px-8 font-medium rounded-2xl cursor-pointer hover:scale-105 hover:font-bold hover:bg-white/70 transition-all" target="_blank" href="https://xipgroc.cat/ca/curses/PerpetuaFM2024/5k/resultats">Apuntat'hi</a>
+        </article>
+        </article>
+    </div>    
+</section>
+
+  
